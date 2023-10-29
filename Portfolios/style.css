@@ -14,9 +14,10 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/bg1.png);
+    background-image: url(images/bg2BlackBack.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:center;
+
 }
 .container{
     padding: 10px 10%;
@@ -320,7 +321,12 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/profileResized.jpg);
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position:center;
     }
     .header-text{
         margin-top: 100%;
