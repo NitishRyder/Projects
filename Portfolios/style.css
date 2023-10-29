@@ -90,6 +90,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: white;
+    justify-content: center;
 }
 .tab-titles{
     display: flex;
